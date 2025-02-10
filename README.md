@@ -34,7 +34,7 @@ The system is made up of the following hardware components:
 - **STM32**: Microcontroller platform used for the main accident detection and alert control logic.
 - **GPS Module (NEO-6M or similar)**: Provides geolocation data.
 - **ESP32**: For wireless communication (Wi-Fi/Bluetooth).
-- **Cloud Services (e.g., Firebase, AWS, or Azure)**: For alert management and storage of accident data.
+- **Cloud Services (e.g., Firebase, AWS, or BlynkIoT)**: For alert management and storage of accident data.
 - **Mobile/SMS/Email Notifications**: For alerting emergency services and contacts.
   
 ---
@@ -64,7 +64,7 @@ The system is made up of the following hardware components:
    - Wi-Fi/Bluetooth libraries for ESP32.
 
 2. **Configure Cloud Services**:
-   - Set up a cloud service (e.g., Firebase or AWS) to receive alerts and data.
+   - Set up a cloud service (e.g., Firebase or AWS or BlynkIoT) to receive alerts and data.
    - Obtain necessary API keys and configure communication in the code.
 
 3. **Upload Firmware**:
